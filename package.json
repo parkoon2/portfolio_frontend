@@ -1,0 +1,22 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/main.scss -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkoon/portfolio_frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkoon/portfolio_frontend/issues"
+  },
+  "homepage": "https://github.com/parkoon/portfolio_frontend#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
